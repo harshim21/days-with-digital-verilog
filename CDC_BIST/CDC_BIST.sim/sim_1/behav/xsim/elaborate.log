@@ -1,0 +1,23 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cdc_bist_tb_m_behav xil_defaultlib.cdc_bist_tb_m xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 1 for port 'src' [C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/jofdm.v:37]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 1 for port 'synced' [C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/jofdm.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.data_generator
+Compiling module xil_defaultlib.data_transfer
+Compiling module xil_defaultlib.cdc_error_detection_m
+Compiling module xil_defaultlib.sync2_m
+Compiling module xil_defaultlib.fifo
+Compiling module xil_defaultlib.solution_handler_m
+Compiling module xil_defaultlib.cdc_bist_top_more
+Compiling module xil_defaultlib.cdc_bist_tb_m
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cdc_bist_tb_m_behav

@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/Synch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync2_m
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/cdc_error.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cdc_error_detection_m
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/data tranfer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_transfer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/jofdm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module solution_handler_m
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/test_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cdc_bist_top_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cdc_bist_tb_m

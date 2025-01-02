@@ -1,0 +1,17 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/CDC_BIST.v,1735802432,verilog,,C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/Synch.v,,cdc_bist_top,,,,,,,,
+C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/Synch.v,1735813013,verilog,,C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/cdc_error.v,,sync2_m,,,,,,,,
+C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/TPG.v,1735802391,verilog,,C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/fgv.v,,lfsr_pattern_generator,,,,,,,,
+C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/cdc_error.v,1735814293,verilog,,C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/data tranfer.v,,cdc_error_detection_m,,,,,,,,
+C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/data tranfer.v,1735812697,verilog,,C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/fifo.v,,data_transfer,,,,,,,,
+C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/fgv.v,1735802604,verilog,,C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/jofdm.v,,solution_handler,,,,,,,,
+C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/fifo.v,1735812818,verilog,,C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/jofdm.v,,fifo,,,,,,,,
+C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/jofdm.v,1735814266,verilog,,C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/test.v,,solution_handler_m,,,,,,,,
+C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/tb.v,1735803227,verilog,,,,cdc_bist_tb,,,,,,,,
+,,,,C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/test_top.v,,data_generator,,,,,,,,
+,,,,C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/testbench.v,,cdc_bist_top_more,,,,,,,,
+,,,,,,cdc_bist_tb_m,,,,,,,,

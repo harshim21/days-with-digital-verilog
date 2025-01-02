@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+At time 0, Error Flag = 0, Suggested Solution = zz
+At time 35000, Error Flag = 1, Suggested Solution = zz
+$finish called at time : 520 ns : File "C:/Users/tiwar/Documents/GitHub/days-with-digital-verilog/CDC_BIST/CDC_BIST.srcs/sim_1/new/testbench.v" Line 59

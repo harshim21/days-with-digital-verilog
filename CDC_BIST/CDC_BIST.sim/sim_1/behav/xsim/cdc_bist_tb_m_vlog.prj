@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CDC_BIST.srcs/sim_1/new/Synch.v" \
+"../../../../CDC_BIST.srcs/sim_1/new/cdc_error.v" \
+"../../../../CDC_BIST.srcs/sim_1/new/data tranfer.v" \
+"../../../../CDC_BIST.srcs/sim_1/new/fifo.v" \
+"../../../../CDC_BIST.srcs/sim_1/new/jofdm.v" \
+"../../../../CDC_BIST.srcs/sim_1/new/test.v" \
+"../../../../CDC_BIST.srcs/sim_1/new/test_top.v" \
+"../../../../CDC_BIST.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
