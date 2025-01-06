@@ -1,7 +1,0 @@
-Running: xsim.dir/cdc_bist_tb_m_behav/xsimk.exe -simmode gui -wdb cdc_bist_tb_m_behav.wdb -simrunnum 0 -socket 62347
-Design successfully loaded
-Design Loading Memory Usage: 8432 KB (Peak: 8432 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 9184 KB (Peak: 9184 KB)
-Simulation CPU Usage: 0 ms

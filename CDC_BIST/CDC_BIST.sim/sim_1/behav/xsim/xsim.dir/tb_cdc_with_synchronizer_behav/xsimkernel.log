@@ -1,7 +1,0 @@
-Running: xsim.dir/tb_cdc_with_synchronizer_behav/xsimk.exe -simmode gui -wdb tb_cdc_with_synchronizer_behav.wdb -simrunnum 0 -socket 45705
-Design successfully loaded
-Design Loading Memory Usage: 9148 KB (Peak: 9148 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 9788 KB (Peak: 9788 KB)
-Simulation CPU Usage: 15 ms
