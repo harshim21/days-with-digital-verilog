@@ -18,22 +18,15 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
-module MUX(
-    input [3:0] data,
-    input [1:0] sel,
-    output reg out
+//GATE_LEVEL_MODELING
+module MUX_21(              
+    input [1:0] data,
+    input  sel,
+    output out
     );
-    always@(*)
-    begin
-    case (sel) 
-             2'b00: out = data [0]; // Select input 0     
-             2'b01: out = data [1]; // Select input 1 
-             2'b10: out = data [2]; // Select input 2 
-             2'b11: out = data [3]; // Select input 3 
-           default: out = 1'b0; // avoid latch
-            
- endcase 
-end
+    wire T1, T2, Sbar;
+    and (T1, data[1], sel);
+    and (T2, data[0], Sbar);
+   not (Sbar, sel);
+   or (out, T1, T2);
 endmodule

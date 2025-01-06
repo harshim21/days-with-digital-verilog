@@ -19,24 +19,52 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+`timescale 1ns / 1ps
 
-module testbench_mux();
-reg [3:0]tdata;
-reg [1:0]tsel;
-reg tout;
-MUX test_mux(
-    tdata,
-    tsel,
-    tout
+module tb_MUX_21;
+
+    // Inputs
+    reg [1:0] data;
+    reg sel;
+
+    // Outputs
+    wire out;
+
+    // Instantiate the Unit Under Test (UUT)
+    MUX_21 uut (
+        .data(data),
+        .sel(sel),
+        .out(out)
     );
-  
-  initial begin
-   tdata<=4'b0000; tsel<= 2'b00;
-   #10
-   tdata<=4'b0010; tsel<= 2'b01;
-    #10
-   tdata<=4'b0100; tsel<= 2'b10;
-    #10
-   tdata<=4'b1000; tsel<= 2'b11;
+
+    initial begin
+        // Initialize Inputs
+        data = 2'b00;
+        sel = 0;
+        #10;
+        
+        data = 2'b01;
+        sel = 0;
+        #10;
+        
+        data = 2'b10;
+        sel = 1;
+        #10;
+        
+        data = 2'b11;
+        sel = 1;
+        #10;
+
+        // Additional test cases
+        data = 2'b10;
+        sel = 0;
+        #10;
+        
+        data = 2'b01;
+        sel = 1;
+        #10;
+
+        $stop;  // Stop simulation
     end
+
 endmodule
