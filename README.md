@@ -14,12 +14,12 @@ This repository is structured into multiple topics, each focusing on a specific 
 
 ## Contents
 
-| Topic/Day | Description                        | Files Included                                      |
-|-----------|------------------------------------|----------------------------------------------------|
-| Day 1     | Combinational Circuits             | Word document, Verilog code for multiplexer design |
-| Day 2     | Sequential Circuits                | Word document, Verilog code for flip-flops         |
-| Day 3     | Finite State Machines (FSMs)       | Word document, Verilog code for state machines     |         |
-| ...       | ...                                | ...                                                |
+| Topic/Day | Description                        | Files Included                                    |
+|-----------|------------------------------------|---------------------------------------------------|
+| Day 1     | Combinational Circuits             | PDF document, Verilog code for multiplexer design |
+| Day 2     | Sequential Circuits                | PDF document, Verilog code for flip-flops         |
+| Day 3     | SHIFT REGISTERS                    | PDF document, Verilog code for state machines     |         |
+| ...       | ...                                | ...                                               |
 
 ---
 
